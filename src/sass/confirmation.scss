@@ -1,0 +1,25 @@
+@import "globals";
+.button--choose {
+    @extend .button;
+    margin: 20px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    height: 10vh;
+    width: 100%;
+}
+
+.button--choose--accept {
+    @extend .button--choose;
+    background-color: #50a550;
+}
+
+.button--choose--deny {
+    @extend .button--choose;
+    background-color: #d44545;
+}
+
+.choose-container {
+    display: flex;
+    flex-wrap: wrap;
+}
