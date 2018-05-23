@@ -12,7 +12,7 @@ Para obter os dados, a API a ser utilizada é a [swapi.co](https://swapi.co/).
 #### Página inicial - index.html
 Na primeira página, há um formulãrio básico, onde o usuário informa seus dados de cadastro. (Nome, idade e email).
 
-Após o preenchimento e envio do formulãrio, ele deverá ser redirecionado para a página `inscrito.html`.
+Após o preenchimento e envio do formulãrio, ele deverá ser redirecionado para a página `confirmacao.html`.
 
 
 #### Aceitar mentor - confirmacao.html
