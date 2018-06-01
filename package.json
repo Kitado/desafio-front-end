@@ -1,11 +1,11 @@
 {
   "name": "teste-frontend-blu365",
   "version": "1.0.0",
-  "description": "Teste para Front-End - Blu365",
+  "description": "Teste Javascript para Front-End - Blu365",
   "scripts": {
-    "start": "yarn clean && NODE_ENV=development gulp serve",
-    "build": "yarn clean && NODE_ENV=production gulp run",
-    "clean": "rm -rf dist/",
+    "start": "yarn clean && cross-env NODE_ENV=development gulp serve",
+    "build": "yarn clean && cross-env NODE_ENV=production gulp run",
+    "clean": "rimraf dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
@@ -19,11 +19,13 @@
     "babelify": "^8.0.0",
     "browser-sync": "^2.23.6",
     "browserify": "^16.1.1",
+    "cross-env": "^5.1.6",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.0",
+    "rimraf": "^2.6.2",
     "streamify": "^0.3.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"

@@ -1,4 +1,4 @@
-# Desafio Front-end - Blu365
+# Desafio Javascript Front-end - Blu365
 
 ## Sobre o desafio
 
